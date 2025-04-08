@@ -1,9 +1,10 @@
-package src.test.java.hello;
+package hello;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.junit.Assert.*;
-
+//import src.main.java.hello.Greeter;
 import org.junit.Test;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class GreeterTest {
   
